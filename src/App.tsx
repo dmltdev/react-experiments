@@ -2,7 +2,7 @@ import { Card } from "./components/ui/card";
 import { ErrorBoundary } from "~lib/components";
 import { useErrorListen } from "~lib/hooks";
 
-import { RovingTabIndexExample } from "~lib/hooks/use-roving-tab-index/use-roving-tab-index.example";
+import { FocusTrapExample } from "~lib/hooks/use-focus-trap/use-focus-trap.example";
 
 function FallbackUI() {
   return <h2>Something went wrong. Please refresh.</h2>;
@@ -19,7 +19,7 @@ function App() {
       <main className="flex w-full min-h-screen items-center justify-center">
         <Card className="w-fit p-4">
           <div className="card">
-            <RovingTabIndexExample />
+            <FocusTrapExample />
           </div>
         </Card>
       </main>
