@@ -1,11 +1,7 @@
-# @dmltdev/react-hooks
+# react-experiments
 
-## Motivation
+This repository includes custom hooks, components, and utils that might be useful for React.js projects.
 
-"A little copy is better than a little dependency".
+Tests and quality are not guaranteed :)
 
-Need a little copy of Tanstack Query but cannot do that due to a variety ofreasons? Install a custom `useQuery` hook with a similar API.
-
-## Installation
-
-TBD
+This might become a library if I get more time.
